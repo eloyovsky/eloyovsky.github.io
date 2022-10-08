@@ -63,5 +63,5 @@ function setTitle(title) {
     if (document.hasFocus()) { document.title = title + faces[Math.floor(Math.random() * faces.length)];}
     else { document.title = 'Por Favor Vuelve! ' + faces[Math.floor(Math.random() * faces.length)]; }
     
-    setTimeout(function() { setTitle(title) }, 100);
+    setTimeout(function() { setTitle(title) }, 10);
 }
